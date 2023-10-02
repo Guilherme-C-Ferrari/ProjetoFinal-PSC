@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjetoFinal-PSC", "ProjetoFinal-PSC.vcxproj", "{A95DA555-DD5F-41CC-AC12-82AD8B751667}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A985B1C5-A663-4ABF-8443-0DA17CF3A268}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -24,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A95DA555-DD5F-41CC-AC12-82AD8B751667} = {A985B1C5-A663-4ABF-8443-0DA17CF3A268}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A4F4926-7EB2-4AF5-9316-1069CDEA5C99}
